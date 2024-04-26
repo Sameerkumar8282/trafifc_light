@@ -1,8 +1,25 @@
-# React + Vite
+# Traffic Light Component in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a simple traffic light simulation using React. The traffic light component, `TrafficLight`, cycles through red, green, and yellow lights with specific durations for each color. This simulation continuously loops through these colors indefinitely.
 
-Currently, two official plugins are available:
+## Component Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Red Light:** Active for 4000 milliseconds.
+- **Green Light:** Active for 3000 milliseconds.
+- **Yellow Light:** Active for 500 milliseconds.
+
+The traffic light starts with the red light active, followed by green, then yellow, and this sequence repeats.
+
+## Requirements
+
+1. **React:** The component is built using the React library.
+2. **Styling:** The traffic light is styled to be visually appealing, with clear indications of which light is active.
+
+## Installation and Setup
+
+Clone the repository and install dependencies:
+
+```bash
+git clone <repository-url>
+cd <repository-directory>
+npm install
