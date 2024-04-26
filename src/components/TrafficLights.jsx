@@ -7,7 +7,7 @@ const LIGHTS = {
 };
 
 const TrafficLights = () => {
-  const [active, setActive] = useState(LIGHTS.red);
+  const [active, setActive] = useState(LIGHTS.green);
 
   useEffect(() => {
     let timer;
